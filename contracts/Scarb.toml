@@ -1,0 +1,12 @@
+[package]
+name = "starkcredit"
+version = "0.1.0"
+edition = "2024_07"
+
+[dependencies]
+starknet = ">=2.8.2"
+
+[[target.starknet-contract]]
+
+[dev-dependencies]
+cairo_test = ">=2.8.2"
